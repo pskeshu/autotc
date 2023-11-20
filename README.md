@@ -1,5 +1,5 @@
 # AutoTC - Automated Tissue Culture
-Digital twin of a working tissue culture facility.
+Experiment planner!
 
 ## FrozenVial
 Representation of a vial with frozen cells based on 
