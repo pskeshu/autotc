@@ -27,3 +27,10 @@ Representation of the cell that is cultured
 - whether the cell is adherant or in suspension
 - the average doubling time of the cell/cell line
 
+## User Story
+From a FrozenVial, two Flasks are thawed out in 1:2 ratio on 22/07/2024/11.15.
+Show me everything I have done so far.
+How confluent are my flasks?
+When do I split Flasks next?
+I have split my Flasks further.
+I have transfected my Flask.
