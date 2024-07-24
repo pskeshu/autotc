@@ -10,7 +10,7 @@ class Container:
 
         
     def transfer_cells(self, to, ratio, timestamp):
-        to.parent = self
+        to.parent = self # to be structured as a tree?
         # to another container
         to.cell_count = int(self.cell_count * ratio)
         to.timestamp = timestamp
@@ -41,6 +41,12 @@ class Flask(Container):
         value = self.growth_function(elapsed_time_hours, start_cells, doubling_time_hours)
         return int(value)
     
+
+    def confluency(self):
+        # measure how confluent the flask is in percentage
+        pass
+
+
     def __repr__(self):
         time_since_seed = self.time_since_seed().total_seconds()/3600
         curr_cell_num = self.current_cells()
